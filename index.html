@@ -63,60 +63,207 @@
     <main class="main">
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Mi</h1>
-                            <h3 class="home__subtitle">Frontend development</h3>
-                            <p class="home__description">
-                            <div class="intro-first-p">I love exploring and creating</div>
-                            <div class="intro-second-p">I'm a lifelong leaner</div>
-                            <div class="intro-last-p">and I love food</div>
-                            </p>
-                        </div>
-                        <a href="https://www.linkedin.com/in/mi-mai-0144731b4/" target="_blank"
-                            class="home__social-icon">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/mijuni" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github"></i>
-                        </a>
+                <!-- <div class="home__content grid"> -->
+                <div class="home__social">
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Mi</h1>
+                        <h3 class="home__subtitle">Frontend development</h3>
+                        <p class="home__description">
+                        <div class="intro-first-p">I love exploring and creating</div>
+                        <div class="intro-second-p">I'm a lifelong leaner</div>
+                        <div class="intro-last-p">and I love food</div>
+                        </p>
                     </div>
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/mi-mai-0144731b4/" target="_blank" class="home__social-icon">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mijuni" target="_blank" class="home__social-icon">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section__title">About Mi</h2>
+            <p class="section__subtitle">A curiosity-driven person with passion for frontend development and design.</p>
+            <div class="about__container container grid">
+                <img class="about__img" src="assets/img/Bewerbungsfoto.jpg">
+                <div class="about__data">
+                    <p class="about__description">I'm passionate about bringing both the technical and visual aspects of
+                        digital products to life.
+                        I have a Certificate of Web Development from Coding Bootcamps Europe.
+                        I'm happiest when I'm creating, learning, exploring and thinking about how to make things
+                        better.
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="section" id="about">
-            <h2>About Mi</h2>
-            <p>A curiosity-driven person with passion for frontend development and design.</p>
-            <img src="assets/img/Bewerbungsfoto.jpg">
-            <p>I'm passionate about bringing both the technical and visual aspects of digital products to life.</p>
-            <p>I have a Certificate of Web Development from Coding Bootcamps Europe.</p>
-            <p>I'm happiest when I'm crating, learning, exploring and thinking about how to make things better.</p>
+        <section class="skills section" id="skills">
+            <h2 class="section__title">My Skills & Tools</h2>
+            <p class="section__subtitle">the skills,tools and technologies I use to bring your products to life:</p>
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <div class="skill__item">
+                        <i class="uil uil-html5 skill__item-logo"></i>
+                        <span class="skill__name">HTML5</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-css3-simple skill__item-logo"></i>
+                        <span class="skill__name">CSS3</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-java-script skill__item-logo"></i>
+                        <span class="skill__name">JavaScript</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-vuejs skill__item-logo"></i>
+                        <span class="skill__name">VueJS</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-github skill__item-logo"></i>
+                        <span class="skill__name">GitHub</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-code-branch skill__item-logo"></i>
+                        <span class="skill__name">Git</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-cog skill__item-logo"></i>
+                        <span class="skill__name">RESTful APIs</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-visual-studio skill__item-logo"></i>
+                        <span class="skill__name">VS Code</span>
+                    </div>
+                    <div class="skill__item">
+                        <i class="uil uil-expand-arrows-alt skill__item-logo"></i>
+                        <div class="skill__name two-lines">Responsive
+                            <br> Websites
+                        </div>
+                    </div>
+                    <div class="skill__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="#6E57E0"
+                            class="bi bi-bootstrap skill__item-logo" viewBox="0 0 16 16">
+                            <path
+                                d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
+                            <path
+                                d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
+                        </svg>
+                        <span class="skill__name">Bootstrap</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="section__secondtitle">Currently working on:</h3>
+                    <p class="section__subtitle">Improving my skills in React, Testing and Debugging, Node.js,
+                        Express.js, Figma. Also having
+                        fun with building
+                        and
+                        training things via CSS.</p>
+                </div>
+            </div>
         </section>
-        <section class="section" id="skills">
-            <h2>My Skills & Tools</h2>
-            <p>the skills,tools and technologies I use to bring your products to life:</p>
-        </section>
-        <section class="section" id="projects">
-            <h2>Projects</h2>
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">A Selection of Stuff I've built</span>
+            <div class="portfolio__container container">
+                <div>
+                    <div class="portfolio__content grid">
+                        <img src="assets/img/test-pic.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Dictionary Application</h3>
+                            <p class="portfolio__description">Implemented various features, such as word search,
+                                definition display. Worked with APIs to retrieve and display data in the app.Utilized
+                                Git for version control and collaboration with team members.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View here
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View GitHub Repo
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid">
+                        <img src="assets/img/test-pic.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Portfolio</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi beatae esse aliquam laborum incidunt quos deserunt obcaecati perferendis placeat
+                                mollitia, saepe tempora cumque quia molestias sit fugiat, ex voluptatum iusto!</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View here
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View GitHub Repo
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid">
+                        <img src="assets/img/test-pic.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Pokemon Card Generator</h3>
+                            <p class="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Minima nobis consectetur blanditiis perspiciatis molestias aperiam, beatae commodi modi
+                                culpa. Magnam, nam quod? Ad iste, culpa odit provident cupiditate magni cum.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View here
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View GitHub Repo
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
             <p>Check my other projects on <a href="https://github.com/mijuni">github</a>.</p>
         </section>
         <section class="section" id="contact">
             <h2>Contact me</h2>
 
         </section>
-        <section class="section" id="resume">
-            <h2>Resume</h2>
+        <section class=" resume section" id="resume">
+            <h2 class="section__title">Resume</h2>
+            <div class="about__buttons">
+                <a download="" class="button button--flex" href="assets/pdf/CV (en).pdf">
+                    Download CV (en)<i class="uil uil-download-alt button__icon"></i>
+                </a>
+                <a download="" class="button button--flex" href="assets/pdf/CV (de).pdf">
+                    Download CV (de)<i class="uil uil-download-alt button__icon"></i>
+                </a>
+            </div>
         </section>
-        <a href="jump-to-the-start"></a>
+
+        <div class="home__scroll">
+            <a href="#home" class="home__scroll-button button--flex">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <span class="home__scroll-name">Scroll up</span>
+                <i class="uil uil-arrow-up home__scroll-arrow"></i>
+            </a>
+        </div>
+        <div class="scroll__up"><a href="#home" class="home__scroll-button button--flex">
+                <i class="uil uil-arrow-circle-up home__scroll-arrow"></i>
+            </a>
+        </div>
     </main>
 
     <script src="assets/js/script.js"></script>
