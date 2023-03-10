@@ -14,8 +14,8 @@
 
 <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a class="nav__logo" href="">Mi Mai</a>
+        <nav class="nav nav-container">
+            <div class="nav__logo">Mi Mai</div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
@@ -104,7 +104,7 @@
                     <p class="about__description">I'm passionate about bringing both the technical and visual aspects of
                         digital products to life.
                         I have a Certificate of Web Development from Coding Bootcamps Europe.
-                        I'm happiest when I'm creating, learning, exploring and thinking about how to make things
+                        And I'm happiest when I'm creating, learning, exploring and thinking about how to make things
                         better.
                     </p>
                 </div>
@@ -166,8 +166,8 @@
                 </div>
                 <div>
                     <h3 class="section__secondtitle">Currently working on:</h3>
-                    <p class="section__subtitle">Improving my skills in React, Testing and Debugging, Node.js,
-                        Express.js, Figma. Also having
+                    <p class="section__subtitle">Improving my skills in React, Node.js, Express.js, SQL and
+                        Figma. Also having
                         fun with building
                         and
                         training things via CSS.</p>
@@ -176,7 +176,7 @@
         </section>
         <section class="projects section" id="projects">
             <h2 class="section__title">Projects</h2>
-            <span class="section__subtitle">A Selection of Stuff I've built</span>
+            <span class="section__subtitle">A Selection of what I've built</span>
             <div class="portfolio__container container swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="portfolio__content grid swiper-slide">
@@ -184,14 +184,18 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Dictionary Application</h3>
-                            <p class="portfolio__description">Implemented various features, such as word search,
-                                definition display. Worked with APIs to retrieve and display data in the app.Utilized
-                                Git for version control and collaboration with team members.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Tech Stack: HTML5, CSS3, JavaScript, VueJS, RESTful API
+                                <br>
+                                Final bootcamp project - implemented various features, such as word search,
+                                definition display. Worked with APIs to retrieve and display data in the app. Utilized
+                                Git for version control and collaboration with team members.
+                            </p>
+                            <!-- <a href="#" class="button button--flex button--small portfolio__button">
                                 View here
                                 <i class="uil uil-external-link-alt button__icon"></i>
-                            </a>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            </a> -->
+                            <a href="https://github.com/coding-bootcamps-eu/22-october-final-project" target="blank"
+                                class="button button--flex button--small portfolio__button">
                                 View GitHub Repo
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
@@ -199,18 +203,22 @@
                     </div>
 
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/test-pic.jpg" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio-img.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Portfolio</h3>
-                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sequi beatae esse aliquam laborum incidunt quos deserunt obcaecati perferendis placeat
-                                mollitia, saepe tempora cumque quia molestias sit fugiat, ex voluptatum iusto!</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Tech Stack: HTML5, CSS3, JavaScript, Swiper <br>
+                                Responsive portfolio page - with implemented features such as a light and dark theme
+                                toggle,
+                                responsive navigation bar and slide gallery with Swiper to showcase selected projects.
+                            </p>
+                            <a href="https://mijuni.github.io/portfolio/" target="blank"
+                                class="button button--flex button--small portfolio__button">
                                 View here
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="https://github.com/mijuni/portfolio" target="blank"
+                                class="button button--flex button--small portfolio__button">
                                 View GitHub Repo
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
@@ -218,18 +226,19 @@
                     </div>
 
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/test-pic.jpg" alt="" class="portfolio__img">
+                        <img src="assets/img/pokemon-card.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Pokemon Card Generator</h3>
-                            <p class="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Minima nobis consectetur blanditiis perspiciatis molestias aperiam, beatae commodi modi
-                                culpa. Magnam, nam quod? Ad iste, culpa odit provident cupiditate magni cum.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Tech Stack: HTML5, CSS3, JavaScript, RESTful API <br>
+                                A fun little project where I used the PokeAPI. Because we wanna catch em all!</p>
+                            <a href="https://mijuni.github.io/pokemon-card-generator/" target="blank"
+                                class="button button--flex button--small portfolio__button">
                                 View here
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="https://github.com/mijuni/pokemon-card-generator" target="blank"
+                                class="button button--flex button--small portfolio__button">
                                 View GitHub Repo
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
@@ -246,7 +255,8 @@
                 <div class="swiper-pagination"></div>
             </div>
             <div class="section__footer">
-                <p>Check my other projects on <a class="github-link" href="https://github.com/mijuni">github</a>.</p>
+                <p>Check my other projects on <a class="github-link" target="_blank"
+                        href="https://github.com/mijuni">github</a>.</p>
             </div>
         </section>
         <section class="contact section" id="contact">
@@ -260,7 +270,7 @@
 
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">m.h.mi@hotmail.de</span>
+                            <a href="mailto:m.h.mi@hotmail.de" class="contact__subtitle">m.h.mi@hotmail.de</a>
                         </div>
                     </div>
                     <div class="contact__information">
@@ -275,7 +285,7 @@
             </div>
         </section>
         <section class=" resume section" id="resume">
-            <h2 class="section__title">Resume</h2>
+            <h2 class="section__title section__title-margin">Resume</h2>
             <div class="about__buttons download__cv-buttons">
                 <a download="" class="button button--flex" href="assets/pdf/CV (en).pdf">
                     Download CV (en)<i class="uil uil-download-alt button__icon"></i>
