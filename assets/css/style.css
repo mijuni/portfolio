@@ -481,7 +481,7 @@ header {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 300px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -577,6 +577,19 @@ header {
 .section__title-margin {
   margin-bottom: 4rem;
 }
+
+/*========================= Footer ============================*/
+.footer {
+  padding-top: 2rem;
+}
+
+.footer__copy {
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  margin-top: var(--mb-1);
+  margin-bottom: 4rem;
+}
+
 /*========================= Media Queries ============================*/
 
 /* Small devices */
@@ -767,10 +780,6 @@ header {
     padding: 0;
   }
 
-  .nav__logo {
-    margin-left: 2rem;
-  }
-
   .home {
     margin-left: 7rem;
   }
@@ -788,7 +797,7 @@ header {
   }
 
   .swiper-button-next {
-    right: 0.4rem;
+    right: -0.3rem;
   }
 
   .portfolio__container {
@@ -822,5 +831,16 @@ header {
   .intro-second-p,
   .intro-last-p {
     font-size: var(--h2-font-size);
+  }
+
+  .footer__copy {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .nav__list,
+  .nav__btns {
+    transform: translateX(8rem);
   }
 }
